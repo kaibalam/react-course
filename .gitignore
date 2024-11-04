@@ -1,0 +1,88 @@
+# Para proyectos Java con Spring Boot
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.out
+
+# Archivos de configuración de IDEs
+*.iml
+.idea/
+.vscode/
+.project
+.classpath
+.settings/
+*.launch
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de Maven
+.mvn/
+.mvnw
+.mvnw.cmd
+
+# Archivos de Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Archivos de logs
+*.log
+
+# Archivos de seguridad
+secrets.env
+.env
+
+# Para proyectos Node.js (aplica también a Angular y ReactJS)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencias creadas por npm
+package-lock.json
+yarn.lock
+
+# Compilación de TypeScript
+*.tsbuildinfo
+
+# Build de Angular o ReactJS
+dist/
+build/
+*.map
+
+# Archivos de cache de npm y yarn
+.npm/
+.yarn/
+
+# Archivos de test coverage
+coverage/
+
+# Archivos de herramientas de linters
+.eslintcache
+*.tsbuildinfo
+
+# Archivos generados por sistemas de emulación o desarrollo
+.sass-cache/
+*.sass-cache
+
+# Archivos de configuración específica
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+.env
+
+# Cache de npm
+.cache/
+
+# Otros
+*.bak
+*.tmp
+
+# Para proyectos que utilizan Docker
+docker-compose.override.yml

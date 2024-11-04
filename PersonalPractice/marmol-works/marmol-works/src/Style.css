@@ -1,0 +1,44 @@
+:root{
+  --first:#222831;
+  --second:#393e46;
+  --third:#0092ca;
+  --fourth:#eeeeee;
+  --logo:#00abfb;
+
+}
+
+html {
+  font-size: 95.5%;
+  box-sizing: border-box;
+  scroll-snap-type: y mandatory;
+}
+
+*, *::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  /* background-image: linear-gradient(to top, var(--second) 0%, var(--fourth) 100%); */
+  /* background-repeat: no-repeat; */
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+h2{
+  font-size: 2.8rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+
+.navigation {
+  background-color: var(--first);
+  color: var(--fourth);
+}
+
+.navigation, a {
+  color: var(--logo);
+}
